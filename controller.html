@@ -2,24 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/built2last/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/built2last/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-    <script type="module" crossorigin src="/built2last/assets/controller-Y6pgBb6W.js"></script>
-    <link rel="modulepreload" crossorigin href="/built2last/assets/mqtt-wsuYZNPu.js">
-    <link rel="stylesheet" crossorigin href="/built2last/assets/controller-ga5DwU6B.css">
+    <title>built2last</title>
+    <script type="module" crossorigin src="/built2last/assets/controller-guDm8N53.js"></script>
+    <link rel="modulepreload" crossorigin href="/built2last/assets/mqtt-KeEEffnT.js">
+    <link rel="stylesheet" crossorigin href="/built2last/assets/controller-pUm3a4XD.css">
   </head>
   <body>
-    <div id="pre-game" class="grid">
-      <div class="item join-game" id="join-game"><span>Join Game!</span></div>
-      <div class="item spacer"></div>
-      <div class="item start-game" id="start-game">Start Game!</div>
+    <div class="setup-grid" id="setup-grid">      
+        <div class="item" id="player-data">
+          <input id="player-name" placeholder="Your name"></input>      
+        </div>
+        <div class="item button" id="join-game-button">Join</div>
+        <div class="item button disabled" id="start-game-button">Start</div>
+        <div class="item button disabled" id="reset-game-button">Reset</div>        
     </div>
-    <span id="debug"></span>
-    <div class="grid" id="controller">
-      <div class="item drop" id="drop">Drop</div>
-      <div class="item spacer"></div>
-      <div class="item joystick">up/down/left/right</div>
+    
+    
+    <div class="game-grid" id="game-grid">
+      <div class="item button-full" id="drop">Drop</div>
+      <div class="item button-full" id="swipe-area">
+        <div class="item" id="swipe-up">+</div>
+        <div class="item" id="swipe-right">↪</div>
+        <div class="item" id="swipe-down">-</div>
+        <div class="item" id="swipe-left">↩</div>
+      </div>
     </div>
   </body>
 </html>
