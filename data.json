@@ -1,0 +1,162 @@
+{
+  "events": [
+    {
+      "date": "2024-06-13T18:00:00+02:00",
+      "location": "Stuttgart, iteratec GmbH, Zettachring 6",
+      "talks": [
+        {
+          "talk": "5-qsziele",
+          "speakers": [
+            "3-uwe"
+          ]
+        },
+        {
+          "talk": "6-einschfreih",
+          "speakers": [
+            "5-david"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-05-22T18:00:00+02:00",
+      "location": "Düsseldorf, WhiteLoft, Ackerstraße 19",
+      "eventLink": "https://explore.iteratec.com/events/buildtolast0524",
+      "registerLink": "https://events.iteratec.com/built-to-last-dus",
+      "talks": [
+        {
+          "talk": "3-healthcheck",
+          "speakers": [
+            "3-uwe"
+          ]
+        },
+        {
+          "talk": "4-techdebt",
+          "speakers": [
+            "4-kay"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-04-18T18:00:00+02:00",
+      "location": "Stuttgart, iteratec GmbH, Zettachring 6",
+      "talks": [
+        {
+          "talk": "3-healthcheck",
+          "speakers": [
+            "3-uwe"
+          ]
+        },
+        {
+          "talk": "4-techdebt",
+          "speakers": [
+            "4-kay"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-03-14T18:00:00+01:00",
+      "location": "Düsseldorf, WhiteLoft, Ackerstraße 19",
+      "talks": [
+        {
+          "talk": "1-immutability",
+          "speakers": [
+            "1-yves"
+          ]
+        },
+        {
+          "talk": "2-ddd",
+          "speakers": [
+            "2-philipp"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-02-29T18:00:00+01:00",
+      "location": "Stuttgart, iteratec GmbH, Zettachring 6",
+      "talks": [
+        {
+          "talk": "1-immutability",
+          "speakers": [
+            "1-yves"
+          ]
+        },
+        {
+          "talk": "2-ddd",
+          "speakers": [
+            "2-philipp"
+          ]
+        }
+      ]
+    }
+  ],
+  "talks": {
+    "1-immutability": {
+      "title": "Immutability - in Stein gemeißelt hält es besser",
+      "abstract": "Veränderliche Objekte sind wie eine tickende Zeitbombe in der Softwareentwicklung. Sie führen zu Fehlern und unvorhergesehenen Verhaltensweisen. Unerwünschte Seiteneffekte sind vorprogrammiert. Abhilfe schafft hier Immutability - die Idee von unveränderlichen Datenstrukturen, die auf vielen Ebenen für eine stabile Grundlage und zuverlässige und sichere Software sorgt. Nicht zuletzt ist Immutability auch ein Kernkonzept in der Funktionalen Programmierung. Seit Java 14 sind die sogenannten Records in den Sprachkern mit aufgenommen, womit Immutability auch hier salonfähig geworden ist. Der Vortrag zeigt auf, wie die Verwendung von Immutability die Code-Komplexität reduzieren kann und die Entwicklung und Handhabung von Software und Daten erleichtert."
+    },
+    "2-ddd": {
+      "title": "Domain-Driven Design als Werkzeug zur effektiven Modernisierung von Legacy Systemen",
+      "abstract": "Softwaresysteme sind immateriell, trotzdem können sie veralten. Sie werden nicht mehr ihren Anforderungen gerecht oder lassen sich schlecht für neue Aufgaben modifizieren. Domain-Driven Design verspricht eine fachlich angemessene Lösungsstrategie, welche sich gut erweitern lässt. Wie ein kleiner \"taktischer DDD-Kern\" im \"Brown-Field\" Projekt eingepflanzt werden kann und zu einer blühenden Modernisierung der Systemlandschaft führt, möchte ich euch in dem Vortrag zeigen."
+    },
+    "3-healthcheck": {
+      "title": "System Health Check - Wie gesund ist ihr System?",
+      "abstract": "Sie spüren ein diffuses Störgefühl bzgl. der Leistungserbringung einer oder mehrerer der von ihnen verantworteten Systeme?\nSie empfinden Unzufriedenheit bzgl. der Qualität und Zuverlässigkeit der Systeme?\nSie verspüren Unsicherheit, ob das System zukünftige Herausforderungen bewältigen kann?\n\n\nEin Health Check der betroffenen Systeme bringt einen fundierten technischen oder organisatorischen und vor allem ganzheitlichen Befund innerhalb kurzer Zeit.\n\nDas Ziel des Health Checks ist eine neutrale Bewertung, ob und in welchem Maße die Qualitätsziele und/oder die aktuellen Bedarfe mit den aktuellen Systemen erreicht oder erreichbar sind.\n\nIch möchten Ihnen einen Überblick über den Ablauf eines System-Health Checks geben, wie ihn die iteratec regelmäßig durchführt."
+    },
+    "4-techdebt": {
+      "title": "Technische Schulden als Investition",
+      "abstract": "Jedes Software-Projekt muss seine technische Basis weiterentwickeln, um langfristig erfolgreich zu sein. Doch im Alltag bleibt so manche Chance ungenutzt, plötzlich schlägt ein unerkanntes Risiko zu oder immer mehr Schulden verlangsamen die Weiterentwicklung? Welche Schritte helfen dabei, einen offenen Umgang mit technischen Hindernissen und Möglichkeiten zu kultivieren? Welche Maßnahmen und Strategien schaffen Transparenz, um fundiert zu entscheiden?"
+    },
+    "5-qsziele": {
+      "title": "Qualitätsziele - Was soll ihr System zukünftig leisten?",
+      "abstract": "Aus den verschiedensten Gründen entsteht der Wunsch ein bestehendes System zu modernisieren oder zu ersetzten. Oft ist dies eine strategische Entscheidung mit weitreichenden Folgen. Gut, wenn man eine Vorstellung von den Zielen und den möglichen Werkzeugen hat.\n\nQ42 ist ein sehr neuer Ansatz um (Qualitäts-) Ziele einer Modernisierung zu definieren."
+    },
+    "6-einschfreih": {
+      "title": "Einschränkungen befreien. Freiheiten schränken ein.",
+      "abstract": "1986 schrieb Fred Brooks seinen noch heute spannenden Report \"No Silver Bullet\". Darin stellt er die These auf, dass in den nächsten 10 Jahren keine einzelne Technik zu einer 10-fachen Verbesserung bei der Erstellung von Software führen wird. Er schlägt stattdessen vor, einige aus seiner damaligen Sicht vielversprechende Kandidaten für kleinere Verbesserungen anzugehen wie z.B. das, was wir heute agile Entwicklung nennen.\n\n2015 hielt Rúnar Bjarnasson auf einer Entwicklerkonferenz eine interessante Eröffnungsrede mit dem Titel \"Constraints Liberate, Liberties Constrain\". Der zunächst absurd erscheinende Titel beleuchtet ein fundamentales Prinzip bei der Erstellung von Software oder auch anderen komplexen Systemen. Keine Seiteneffekte und kein änderbarer Zustand in der funktionalen Programmierung oder auch das Principle of least Privilege in der Datensicherheit können als konkrete Ausprägungen dieses Prinzips gesehen werden.\n\nIch fasse zusammen, was die Aussagen aus diesen Arbeiten für eine nachhaltige Softwareentwicklung heutzutage aus meiner Sicht bedeuten."
+    }
+  },
+  "speakers": {
+    "1-yves": {
+      "name": "Yves Schubert",
+      "profile": "Schon über 15 Jahre bin ich beruflich und auch privat in vielen Softwareprojekten unterschiedlichster Technologiebereiche maßgeblich beteiligt. Ich verfolge dabei immer das Ziel, möglichst viel von dieser schnelllebigen Softwarewelt mitzunehmen, aber auch die neuen Trends auf ihre Nachhaltigkeit hin abzuklopfen. Den Einsatz neuer Technologien wäge ich dabei immer kritisch ab. In der Praxis wende ich die Prinzipien des Software Craftsmanship an."
+    },
+    "2-philipp": {
+      "name": "Philipp Wiersberg",
+      "profile": "Seit über 10 Jahren entwickle ich Software in verschiedenen Branchen, Technologien und in unterschiedlichsten Team-Topologien. Gerade die Modernisierung von Systemen, die tief im \"Brown-Field\" stecken reizen mich und halte ich für besonders herausfordernd. Dabei sind meine favorisierten Werkzeuge Clean-Code, Pair-/Mob-Programming und die Anwendung des taktischen Designs nach DDD."
+    },
+    "3-uwe": {
+      "name": "Uwe Barthel",
+      "profile": "Seit mehr als 20 Jahre ist die Softwareentwicklung meine Berufung. In den Jahren habe ich viele Systeme in unterschiedlichen Technologien und Branchen kennengelernt und entwickelt. Dabei ging es mir nicht nur um Technologien oder Source Code. Ich habe viele unterschiedliche Teams und Entwicklungsmethoden kennengelernt und immer wieder auch den Einfluss auf die Qualität der entwickelten Systeme beobachtet. Von Anfang an haben mich die Themen Wartbarkeit  und Modernisierung/Sanierung von Softwaresystemen im laufenden Betrieb fasziniert. In all der Zeit habe ich zudem meine Liebe zum Thema Dokumentation entdeckt."
+    },
+    "4-kay": {
+      "name": "Kay Schwieger",
+      "profile": "Seit mehr als 5 Jahren entwickle ich Software in verschiedenen Teams und unterschiedlichen Umfeldern. Mich reizen es insbesondere Entwicklungsprozesse kontinuierliche zu verbessern und die Verzahnung von fachlichem Problem und technischer Lösung zu gestalten."
+    },
+    "5-david": {
+      "name": "David Alberts",
+      "profile": "Seit 1998 entwickle ich Software. Seit 2016 bin ich bei iteratec und entwickle dort Web-Applikationen für große Kunden z.B. im Automotive-Bereich.\n\nIn der Vergangenheit hatte ich mit ganz unterschiedlichen Gebieten zu tun, z.B. geografische Informationssysteme, Darstellung, automatisches Layout und Interaktion mit Diagrammen und 3D-Echtzeitortung in Werkshallen.\n\nEinige Jahre war ich der Hauptentwickler des freien Diagrammeditors yEd."
+    }
+  },
+  "nextSpeakers": {
+    "6-emil": {
+      "name": "Emil Pawlowski",
+      "profile": "In meinen 3 Jahren Erfahrung als Software Entwickler, mit einer Leidenschaft für Cloud-Computing, Software-Architektur und moderner Webentwicklung, durfte ich bereits einige spannende Projekte realisieren. Dabei setze ich auf eine Kombination aus bewährten Konzepten und modernen Technologien, um leistungsstarke und zukunftssichere Software zu entwickeln."
+    },
+    "7-stefan": {
+      "name": "Stefan Thieme",
+      "profile": "TBD"
+    },
+    "8-matthias": {
+      "name": "Matthias Huber",
+      "profile": "TBD"
+    },
+    "9-ulrich": {
+      "name": "Ulrich Buhrmann",
+      "profile": "ch baue seit 23 Jahren Software-Systeme. Im Studium habe ich mich viel mit KI beschäftigt, aber die ersten 18 Jahre meines Berufslebens wurde das für ziemlich exotisch gehalten und keiner wollte gegen Geld etwas davon wissen. Statt dessen bin ich immer wieder bei der Ablösung von großen Alt-Systemen durch neue Anwendungen gelandet. Einige der dabei gemachten Erfahrungen teile ich gerne in diesem Vortrag."
+    }
+  }
+}
