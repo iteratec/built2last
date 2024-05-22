@@ -13,6 +13,17 @@
       --pico-font-family: Arial, serif;
     }
 
+    :root:not([data-theme=light]), [data-theme=dark] {
+      --pico-color: #FFFFFF;
+      --pico-font-family: Arial, serif;
+    }
+
+    @media only screen and (prefers-color-scheme: dark) {
+      :root:not([data-theme]) {
+        --pico-background-color: #000000;
+      }
+    }
+
     html {
       box-sizing: content-box;
       font-family: Arial, serif;
@@ -29,8 +40,6 @@
       font-size: 20px;
       margin: 0;
       padding: 0;
-      background-color: #FFFFFF;
-      color: #000000;
     }
 
     h1,
@@ -87,10 +96,10 @@
     <p class="iteragenta">Ist Ihre Software zukunftssicher?</p>
   </hgroup>
   <p>
-    Herzlich willkommen auf der Seite von BUILD TO LAST!
+    Herzlich willkommen auf der Seite von BUILT TO LAST!
   </p>
   <p>
-    In der mehrteiligen Vortragsreihe BUILD TO LAST geben Ihnen unsere Expert:innen Einblicke in
+    In der mehrteiligen Vortragsreihe BUILT TO LAST geben Ihnen unsere Expert:innen Einblicke in
     Ideen und Lösungen, die Ihre Software zukunftssicher gestalten. In lockerer Athmosphäre
     versuchen wir der Frage auf den Grund zu gehen, wie Software so hergestellt werden kann,
     dass sie möglichst lange Bestand hat und vor allem, wie bestehende Software nachhaltig
