@@ -118,7 +118,7 @@
     },
     "7-apm": {
       "title": "Application Monitoring - Rätst du noch oder misst du schon?",
-      "abstract": "\"Was man nicht messen kann, kann man nicht lenken\" ist ein bekanntes Zitat des Ökonom Peter Ferdinand Drucker. Dies gilt auch für die Qualitätsattribute Ihrer Anwendungen.\n\nKommen Sie mit auf eine Reise, bei der ich anhand einer Java Anwendung und Open-Source APM-Werkzeugen aufzeige, wie Sie frühzeitig, durch dauerhafte Überwachung Ihrer Anwendungen wesentliche Qualitätsattribute, wie Zeitverhalten, messen, analysieren und zur Steuerung nutzen können.\n\nMit im Gepäck ist die Vermittlung von methodischem Vorgehen, welches sich auf andere Sprachen oder kommerzielle APM-Lösungen übertragen lässt."
+      "abstract": "\"Was man nicht messen kann, kann man nicht lenken\" ist ein bekanntes Zitat des Ökonomen Peter Ferdinand Drucker. Dies gilt auch für die Qualitätsattribute Ihrer Anwendungen.\n\nKommen Sie mit auf eine Reise, bei der ich anhand einer Java Anwendung und Open-Source APM-Werkzeugen aufzeige, wie Sie frühzeitig, durch dauerhafte Überwachung Ihrer Anwendungen wesentliche Qualitätsattribute, wie Zeitverhalten, messen, analysieren und zur Steuerung nutzen können.\n\nMit im Gepäck ist die Vermittlung von methodischem Vorgehen, welches sich auf andere Sprachen oder kommerzielle APM-Lösungen übertragen lässt."
     }
   },
   "nextTalks": {
