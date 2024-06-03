@@ -3,11 +3,13 @@
     {
       "date": "2024-06-13T18:00:00+02:00",
       "location": "Stuttgart, iteratec GmbH, Zettachring 6",
+      "eventLink": "https://www.meetup.com/de-DE/developing-digital-champions-stuttgart/events/301272508/",
+      "registerLink": "https://www.meetup.com/de-DE/developing-digital-champions-stuttgart/events/301272508/",
       "talks": [
         {
-          "talk": "5-qsziele",
+          "talk": "7-apm",
           "speakers": [
-            "3-uwe"
+            "8-matthias"
           ]
         },
         {
@@ -110,13 +112,19 @@
       "title": "Technische Schulden als Investition",
       "abstract": "Jedes Software-Projekt muss seine technische Basis weiterentwickeln, um langfristig erfolgreich zu sein. Doch im Alltag bleibt so manche Chance ungenutzt, plötzlich schlägt ein unerkanntes Risiko zu oder immer mehr Schulden verlangsamen die Weiterentwicklung? Welche Schritte helfen dabei, einen offenen Umgang mit technischen Hindernissen und Möglichkeiten zu kultivieren? Welche Maßnahmen und Strategien schaffen Transparenz, um fundiert zu entscheiden?"
     },
-    "5-qsziele": {
-      "title": "Qualitätsziele - Was soll ihr System zukünftig leisten?",
-      "abstract": "Aus den verschiedensten Gründen entsteht der Wunsch ein bestehendes System zu modernisieren oder zu ersetzten. Oft ist dies eine strategische Entscheidung mit weitreichenden Folgen. Gut, wenn man eine Vorstellung von den Zielen und den möglichen Werkzeugen hat.\n\nQ42 ist ein sehr neuer Ansatz um (Qualitäts-) Ziele einer Modernisierung zu definieren."
-    },
     "6-einschfreih": {
       "title": "Einschränkungen befreien. Freiheiten schränken ein.",
       "abstract": "1986 schrieb Fred Brooks seinen noch heute spannenden Report \"No Silver Bullet\". Darin stellt er die These auf, dass in den nächsten 10 Jahren keine einzelne Technik zu einer 10-fachen Verbesserung bei der Erstellung von Software führen wird. Er schlägt stattdessen vor, einige aus seiner damaligen Sicht vielversprechende Kandidaten für kleinere Verbesserungen anzugehen wie z.B. das, was wir heute agile Entwicklung nennen.\n\n2015 hielt Rúnar Bjarnasson auf einer Entwicklerkonferenz eine interessante Eröffnungsrede mit dem Titel \"Constraints Liberate, Liberties Constrain\". Der zunächst absurd erscheinende Titel beleuchtet ein fundamentales Prinzip bei der Erstellung von Software oder auch anderen komplexen Systemen. Keine Seiteneffekte und kein änderbarer Zustand in der funktionalen Programmierung oder auch das Principle of least Privilege in der Datensicherheit können als konkrete Ausprägungen dieses Prinzips gesehen werden.\n\nIch fasse zusammen, was die Aussagen aus diesen Arbeiten für eine nachhaltige Softwareentwicklung heutzutage aus meiner Sicht bedeuten."
+    },
+    "7-apm": {
+      "title": "Application Monitoring - Rätst du noch oder misst du schon?",
+      "abstract": "\"Was man nicht messen kann, kann man nicht lenken\" ist ein bekanntes Zitat des Ökonom Peter Ferdinand Drucker. Dies gilt auch für die Qualitätsattribute Ihrer Anwendungen.\n\nKommen Sie mit auf eine Reise, bei der ich anhand einer Java Anwendung und Open-Source APM-Werkzeugen aufzeige, wie Sie frühzeitig, durch dauerhafte Überwachung Ihrer Anwendungen wesentliche Qualitätsattribute, wie Zeitverhalten, messen, analysieren und zur Steuerung nutzen können.\n\nMit im Gepäck ist die Vermittlung von methodischem Vorgehen, welches sich auf andere Sprachen oder kommerzielle APM-Lösungen übertragen lässt."
+    }
+  },
+  "nextTalks": {
+    "5-qsziele": {
+      "title": "Qualitätsziele - Was soll ihr System zukünftig leisten?",
+      "abstract": "Aus den verschiedensten Gründen entsteht der Wunsch ein bestehendes System zu modernisieren oder zu ersetzten. Oft ist dies eine strategische Entscheidung mit weitreichenden Folgen. Gut, wenn man eine Vorstellung von den Zielen und den möglichen Werkzeugen hat.\n\nQ42 ist ein sehr neuer Ansatz um (Qualitäts-) Ziele einer Modernisierung zu definieren."
     }
   },
   "speakers": {
@@ -139,6 +147,10 @@
     "5-david": {
       "name": "David Alberts",
       "profile": "Seit 1998 entwickle ich Software. Seit 2016 bin ich bei iteratec und entwickle dort Web-Applikationen für große Kunden z.B. im Automotive-Bereich.\n\nIn der Vergangenheit hatte ich mit ganz unterschiedlichen Gebieten zu tun, z.B. geografische Informationssysteme, Darstellung, automatisches Layout und Interaktion mit Diagrammen und 3D-Echtzeitortung in Werkshallen.\n\nEinige Jahre war ich der Hauptentwickler des freien Diagrammeditors yEd."
+    },
+    "8-matthias": {
+      "name": "Matthias Huber",
+      "profile": "\"Das Leben ist zu kurz, um es mit langsamen Anwendungen zu verbringen\" könnte eines meiner Mottos sein.\n\nDies ist eine Erklärung für die letzten 13 Berufsjahre, in denen ich Application Monitoring bei Kunden aufgebaut und eingeführt habe.\n\nEine andere ist mein technologisches Interesse, wie Anwendungen zur Laufzeit ausgeführt, überwacht, analysiert und optimiert werden können.\n\nUnd Hand aufs Herz. Es ist auch eine persönliche Genugtuung, wenn man ein Performance Problem löst.\n\n"
     }
   },
   "nextSpeakers": {
@@ -150,13 +162,9 @@
       "name": "Stefan Thieme",
       "profile": "TBD"
     },
-    "8-matthias": {
-      "name": "Matthias Huber",
-      "profile": "TBD"
-    },
     "9-ulrich": {
       "name": "Ulrich Buhrmann",
-      "profile": "ch baue seit 23 Jahren Software-Systeme. Im Studium habe ich mich viel mit KI beschäftigt, aber die ersten 18 Jahre meines Berufslebens wurde das für ziemlich exotisch gehalten und keiner wollte gegen Geld etwas davon wissen. Statt dessen bin ich immer wieder bei der Ablösung von großen Alt-Systemen durch neue Anwendungen gelandet. Einige der dabei gemachten Erfahrungen teile ich gerne in diesem Vortrag."
+      "profile": "Ich baue seit 23 Jahren Software-Systeme. Im Studium habe ich mich viel mit KI beschäftigt, aber die ersten 18 Jahre meines Berufslebens wurde das für ziemlich exotisch gehalten und keiner wollte gegen Geld etwas davon wissen. Statt dessen bin ich immer wieder bei der Ablösung von großen Alt-Systemen durch neue Anwendungen gelandet. Einige der dabei gemachten Erfahrungen teile ich gerne in diesem Vortrag."
     }
   }
 }
