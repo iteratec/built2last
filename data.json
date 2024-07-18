@@ -1,47 +1,7 @@
 {
   "planned": [
-    {
-      "date": "2024-11-07T18:00:00+02:00",
-      "location": "Düsseldorf, WhiteLoft, Ackerstraße 19",
-      "eventLink": "",
-      "registerLink": "",
-      "talks": [
-        {
-          "talk": "7-apm",
-          "speakers": [
-            "7-stefan"
-          ]
-        },
-        {
-          "talk": "6-einschfreih",
-          "speakers": [
-            "5-david"
-          ]
-        }
-      ]
-    }
   ],
   "events": [
-    {
-      "date": "2024-09-18T18:00:00+02:00",
-      "location": "Stuttgart, iteratec GmbH, Zettachring 6",
-      "eventLink": "",
-      "registerLink": "",
-      "talks": [
-        {
-          "talk": "9-replacing",
-          "speakers": [
-            "9-ulrich"
-          ]
-        },
-        {
-          "talk": "8-j2ee",
-          "speakers": [
-            "6-emil"
-          ]
-        }
-      ]
-    },
     {
       "date": "2024-09-05T18:00:00+02:00",
       "location": "Düsseldorf, WhiteLoft, Ackerstraße 19",
