@@ -166,10 +166,6 @@
       "title": "Serverless Enterprise Edition - Jakarta EE in der Cloud",
       "abstract": "Jakarta EE, zuvor als Java EE bekannt, hat eine bemerkenswerte Evolution durchlaufen. Ursprünglich für seine Komplexität kritisiert, hat sich Jakarta EE zu einer idealen Lösung für leichtgewichtige Enterprise-Anwendungen in der Cloud entwickelt. In diesem Vortrag untersuche ich die Entwicklung von Jakarta EE und erkläre, wie dessen Entschlackung das Betreiben in serverlosen Umgebungen möglich gemacht hat.\n\nDabei kann bei der Entwicklung auf bewährte Konzepte gesetzt werden, und der Fokus kann auf das gerichtet werden, was wichtig ist: die Geschäftslogik und somit das, was am Ende im Unternehmen den Unterschied macht."
     },
-    "9-replacing": {
-      "title": "Strategien für die Alt-System-Ablösung (Replacing)",
-      "abstract": "Viele Versuche große, komplexe Alt-Systeme zu ersetzen, die über viele Jahrzehnte gewachsen sind, scheitern vollständig oder gelingen nur unvollständig, so dass beide Systeme weiter parallel existieren. Die wichtigsten Erfolgsfaktoren um das zu vermeiden, gliedern sich nach meiner Erfahrung anhand der folgenden strategischen Bausteine:\n\ndie klare Definition der gewünschten Ergebnisse der Ablösung der Altsoftware,\ndie Zerlegung dieser Ablösung in Teile,\ndie schrittweise Bereitstellung dieser Teile\nund die Änderung der Unternehmenskultur, um anzuerkennen, dass Veränderungen die unveränderliche Realität sind.\nIm Vortrag möchte ich diese Prinzipien erläutern und mit Beispielen aus der Praxis veranschaulichen."
-    },
     "10-qualitygoals": {
       "title": "Qualitätsziele - Was soll ihr System zukünftig leisten?",
       "abstract": "Aus den verschiedensten Gründen entsteht der Wunsch ein bestehendes System zu modernisieren oder zu ersetzten. Oft ist dies eine strategische Entscheidung mit weitreichenden Folgen. Gut, wenn man eine Vorstellung von den Zielen und den möglichen Werkzeugen hat.\n\nQ42 ist ein sehr neuer Ansatz um (Qualitäts-) Ziele einer Modernisierung zu definieren."
@@ -200,17 +196,9 @@
       "name": "Emil Pawlowski",
       "profile": "In meinen 3 Jahren Erfahrung als Software Entwickler, mit einer Leidenschaft für Cloud-Computing, Software-Architektur und moderner Webentwicklung, durfte ich bereits einige spannende Projekte realisieren. Dabei setze ich auf eine Kombination aus bewährten Konzepten und modernen Technologien, um leistungsstarke und zukunftssichere Software zu entwickeln."
     },
-    "7-stefan": {
-      "name": "Stefan Thieme",
-      "profile": "TBD"
-    },
     "8-matthias": {
       "name": "Matthias Huber",
       "profile": "\"Das Leben ist zu kurz, um es mit langsamen Anwendungen zu verbringen\" könnte eines meiner Mottos sein.\n\nDies ist eine Erklärung für die letzten 13 Berufsjahre, in denen ich Application Monitoring bei Kunden aufgebaut und eingeführt habe.\n\nEine andere ist mein technologisches Interesse, wie Anwendungen zur Laufzeit ausgeführt, überwacht, analysiert und optimiert werden können.\n\nUnd Hand aufs Herz. Es ist auch eine persönliche Genugtuung, wenn man ein Performance Problem löst.\n\n"
-    },
-    "9-ulrich": {
-      "name": "Ulrich Buhrmann",
-      "profile": "Ich baue seit 23 Jahren Software-Systeme. Im Studium habe ich mich viel mit KI beschäftigt, aber die ersten 18 Jahre meines Berufslebens wurde das für ziemlich exotisch gehalten und keiner wollte gegen Geld etwas davon wissen. Statt dessen bin ich immer wieder bei der Ablösung von großen Alt-Systemen durch neue Anwendungen gelandet. Einige der dabei gemachten Erfahrungen teile ich gerne in diesem Vortrag."
     }
   }
 }
