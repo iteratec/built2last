@@ -48,10 +48,16 @@ function createLink(href, text, abs = false) {
 }
 
 function writeEvents(data) {
+  let isOld = false;
   data.events.forEach(event => {
     const eventNode = eventTemplate.content.cloneNode(true);
     eventNode.querySelector("article").id = event.date;
     if ((event.date < new Date().toISOString())) {
+      if (!isOld) {
+        termine.appendChild(document.createElement("hr"));
+        termine.appendChild(document.createTextNode("Vergangene Termine:"));
+      }
+      isOld = true;
       eventNode.querySelector("article").classList.add("old");
     } else if (event.registerLink) {
       eventNode.querySelector(".btnRegister").appendChild(
@@ -80,7 +86,11 @@ function writeEvents(data) {
       contentNode.appendChild(document.createElement("hr"));
     });
 
-    termine.appendChild(eventNode);
+    if (isOld) {
+      termine.appendChild(eventNode);
+    } else {
+      termine.insertBefore(eventNode, termine.firstChild);
+    }
   });
 
 }
