@@ -3,15 +3,35 @@
   ],
   "events": [
     {
-      "date": "2024-09-05T18:00:00+02:00",
-      "location": "Düsseldorf, WhiteLoft, Ackerstraße 19",
+      "date": "2024-09-18T18:00:00+02:00",
+      "location": "Stuttgart, iteratec GmbH, Zettachring 6",
       "eventLink": "",
       "registerLink": "",
       "talks": [
         {
-          "talk": "9-replacing",
+          "talk": "10-qualitygoals",
           "speakers": [
-            "9-ulrich"
+            "3-uwe"
+          ]
+        },
+        {
+          "talk": "8-j2ee",
+          "speakers": [
+            "6-emil"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2024-09-05T18:00:00+02:00",
+      "location": "Düsseldorf, Logenhaus, Uhlandstraße 42, Heinesaal, Eingang rechts neben iteratec GmbH,",
+      "eventLink": "",
+      "registerLink": "",
+      "talks": [
+        {
+          "talk": "10-qualitygoals",
+          "speakers": [
+            "3-uwe"
           ]
         },
         {
@@ -149,6 +169,10 @@
     "9-replacing": {
       "title": "Strategien für die Alt-System-Ablösung (Replacing)",
       "abstract": "Viele Versuche große, komplexe Alt-Systeme zu ersetzen, die über viele Jahrzehnte gewachsen sind, scheitern vollständig oder gelingen nur unvollständig, so dass beide Systeme weiter parallel existieren. Die wichtigsten Erfolgsfaktoren um das zu vermeiden, gliedern sich nach meiner Erfahrung anhand der folgenden strategischen Bausteine:\n\ndie klare Definition der gewünschten Ergebnisse der Ablösung der Altsoftware,\ndie Zerlegung dieser Ablösung in Teile,\ndie schrittweise Bereitstellung dieser Teile\nund die Änderung der Unternehmenskultur, um anzuerkennen, dass Veränderungen die unveränderliche Realität sind.\nIm Vortrag möchte ich diese Prinzipien erläutern und mit Beispielen aus der Praxis veranschaulichen."
+    },
+    "10-qualitygoals": {
+      "title": "Qualitätsziele - Was soll ihr System zukünftig leisten?",
+      "abstract": "Aus den verschiedensten Gründen entsteht der Wunsch ein bestehendes System zu modernisieren oder zu ersetzten. Oft ist dies eine strategische Entscheidung mit weitreichenden Folgen. Gut, wenn man eine Vorstellung von den Zielen und den möglichen Werkzeugen hat.\n\nQ42 ist ein sehr neuer Ansatz um (Qualitäts-) Ziele einer Modernisierung zu definieren."
     }
   },
   "speakers": {
@@ -162,7 +186,7 @@
     },
     "3-uwe": {
       "name": "Uwe Barthel",
-      "profile": "Seit mehr als 20 Jahre ist die Softwareentwicklung meine Berufung. In den Jahren habe ich viele Systeme in unterschiedlichen Technologien und Branchen kennengelernt und entwickelt. Dabei ging es mir nicht nur um Technologien oder Source Code. Ich habe viele unterschiedliche Teams und Entwicklungsmethoden kennengelernt und immer wieder auch den Einfluss auf die Qualität der entwickelten Systeme beobachtet. Von Anfang an haben mich die Themen Wartbarkeit  und Modernisierung/Sanierung von Softwaresystemen im laufenden Betrieb fasziniert. In all der Zeit habe ich zudem meine Liebe zum Thema Dokumentation entdeckt."
+      "profile": "Seit mehr als 20 Jahren ist die Softwareentwicklung meine Berufung. In den Jahren habe ich viele Systeme in unterschiedlichen Technologien und Branchen kennengelernt und entwickelt. Dabei ging es mir nicht nur um Technologien oder Source Code. Ich habe viele unterschiedliche Teams und Entwicklungsmethoden kennengelernt und immer wieder auch den Einfluss auf die Qualität der entwickelten Systeme beobachtet. Von Anfang an haben mich die Themen Wartbarkeit  und Modernisierung/Sanierung von Softwaresystemen im laufenden Betrieb fasziniert. In all der Zeit habe ich zudem meine Liebe zum Thema Dokumentation entdeckt."
     },
     "4-kay": {
       "name": "Kay Schwieger",
