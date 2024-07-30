@@ -65,8 +65,10 @@ function writeEvents(data) {
       isOld = true;
       eventNode.querySelector("article").classList.add("old");
     } else if (event.registerLink) {
+      const link = createLink(event.registerLink, "Zur Anmeldung", true);
+      link.setAttribute("role", "button");
       eventNode.querySelector(".btnRegister").appendChild(
-        createLink(event.registerLink, "Zur Anmeldung", true));
+  link      );
     }
 
     setContent(eventNode, ".date", formatDate(event.date, longDateOptions));

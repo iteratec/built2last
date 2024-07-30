@@ -1,174 +1,195 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BUILT TO LAST</title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUILT TO LAST</title>
 
-  <link rel="stylesheet" href="./landing/css/pico.min.css" />
-  <style>
-    
-    @media only screen and (prefers-color-scheme: dark) {
-      :root:not([data-theme]) {
-        --pico-color: #FFFFFF;
-        --pico-background-color: #000000;
-      }
-    }
-
-    @media only screen and (prefers-color-scheme: light) {
-      :root:not([data-theme]) {
-        --pico-background-color: #FFFFFF;
-        --pico-color: #000000;
+    <link rel="stylesheet" href="./landing/css/pico.min.css" />
+    <style>
+      @media only screen and (prefers-color-scheme: dark) {
+        :root:not([data-theme]) {
+          --pico-color: #ffffff;
+          --pico-background-color: #000000;
+        }
       }
 
-    }
+      @media only screen and (prefers-color-scheme: light) {
+        :root:not([data-theme]) {
+          --pico-background-color: #ffffff;
+          --pico-color: #000000;
+        }
+      }
 
-    html {
-      box-sizing: content-box;
-      font-family: Arial, serif;
-      padding: 0;
-      margin: 0;
-      --iteragenta: #9d1681;
-      --gelb: #ffe500;
-      --mint: #00b2bb;
+      html {
+        box-sizing: content-box;
+        font-family: Arial, serif;
+        padding: 0;
+        margin: 0;
+        --iteragenta: #9d1681;
+        --gelb: #ffe500;
+        --mint: #00b2bb;
+      }
 
-    }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+      }
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      margin: 0;
-      padding: 0;
-    }
+      h1,
+      h2,
+      h3,
+      p,
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-    h1,
-    h2,
-    h3,
-    p,
-    div {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      h1 {
+        font-size: 30px;
+      }
 
-    .iteragenta {
-      color: var(--iteragenta) !important;
-    }
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 20px;
+        }
 
-    .gelb {
-      color: var(--gelb);
-    }
+        body {
+          font-size: 18px;
+        }
+      }
 
-    .mint {
-      color: var(--mint);
-    }
+      .iteragenta {
+        color: var(--iteragenta) !important;
+      }
 
-    button.iteragenta {
-      color: #ffffff;
-      background-color: var(--iteragenta);
-    }
+      .gelb {
+        color: var(--gelb);
+      }
 
-    img.header {
-      width: 100%;
-      max-width: 1920px;
-      margin: 0 auto;
-      display: block;
-    }
+      .mint {
+        color: var(--mint);
+      }
 
-    a {
-      margin-right: 20px;
-    }
+      button.iteragenta {
+        color: #ffffff;
+        background-color: var(--iteragenta);
+      }
 
-    article.old {
-      opacity: 0.6;
-    }
+      img.header {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        display: block;
+      }
 
-    .btnRegister {
-      float: right;
-    }
-  </style>
-</head>
-<body>
-<img class="header" src="./landing/gfx/header5.jpg" title="BuiltLast"
-     alt="Ist Ihre Software zukunftssicher?" />
-<main class="container">
-  <hgroup>
-    <h1 class="iteragenta">BUILT TO LAST</h1>
-    <p class="iteragenta">Ist Ihre Software zukunftssicher?</p>
-  </hgroup>
-  <p>
-    Herzlich willkommen auf der Seite von BUILT TO LAST!
-  </p>
-  <p>
-    In der mehrteiligen Vortragsreihe BUILT TO LAST geben Ihnen unsere Expert:innen Einblicke in
-    Ideen und Lösungen, die Ihre Software zukunftssicher gestalten. In lockerer Athmosphäre
-    versuchen wir der Frage auf den Grund zu gehen, wie Software so hergestellt werden kann,
-    dass sie möglichst lange Bestand hat und vor allem, wie bestehende Software nachhaltig
-    modernisiert werden kann.
-  </p>
-  <p>Die Vorträge sind kostenlos, für das leibliche Wohl ist gesorgt.</p>
-  <section>
-    <h2 class="mint">Ablauf</h2>
-    <div>
-      Die Abende sind jeweils wie folgt aufgebaut:
-      <ul>
-        <li>18:00 - CheckIn</li>
-        <li>18:30 - Erster Vortrag</li>
-        <li>19:15 - Pause mit Verpflegung</li>
-        <li>19:45 - Zweiter Vortrag</li>
-        <li>20:30 - Q&A und Networking</li>
-      </ul>
-    </div>
-  </section>
-  <section>
-    <h2 class="mint">Termine</h2>
-    Folgende Termine stehen an:<br><br>
-    <div id="termine"></div>
-  </section>
-  <section>
-    <h2 class="mint">Vorträge</h2>
-    <div id="vortraege"></div>
-  </section>
-  <section>
-    <h2 class="mint">Speaker</h2>
-    <div id="referenten"></div>
-  </section>
+      a {
+        margin-right: 20px;
+      }
 
-  <div></div>
-  <footer>Powered by <a href="https://www.iteratec.com">iteratec</a></footer>
-</main>
+      article.old {
+        opacity: 0.6;
+      }
 
-<template id="event">
-  <article id="event-id">
-    <header>
-      <span class="btnRegister"></span>
-      <h1 class="date iteragenta">---</h1>
-      <span class="location"></span>
-    </header>
-    <div class="content"></div>
-  </article>
-</template>
-<template id="talk">
-  <strong class="title"></strong> - <a class="moreLink" href="#">mehr</a><br>Referent:in: <span
-  class="referenten"></span>
-</template>
-<template id="talkdetail">
-  <article>
-    <strong class="title"></strong>
-    <p class="abstract"></p>
-    Termine: <span class="termine"></span>
-    <br>Referent:in: <span class="referenten"></span>
-  </article>
-</template>
-<template id="speaker">
-  <article>
-    <strong class="name" id="--"></strong>
-    <p class="bio"></p>
-    <footer>
-      Vortrag:
-      <div class="vortraege"></div>
-    </footer>
-  </article>
-</template>
-<script src="landing/scripts/main.js"></script>
-</body>
+      .btnRegister {
+        float: right;
+      }
+
+      .btnRegister a {
+        color: #ffffff;
+        margin: 0;
+        cursor: pointer;
+      }
+
+      @media only screen and (prefers-color-scheme: dark) {
+        .iteragenta {
+          color: var(--gelb) !important;
+        }
+      }
+      .btnRegister a {
+        background-color: var(--gelb);
+        border-color: var(--gelb);
+      }
+
+      .btnRegister a {
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="header" src="./landing/gfx/header5.jpg" title="BuiltLast" alt="Ist Ihre Software zukunftssicher?" />
+    <main class="container">
+      <hgroup>
+        <h1 class="iteragenta">BUILT TO LAST</h1>
+        <p class="iteragenta">Ist Ihre Software zukunftssicher?</p>
+      </hgroup>
+      <p>Herzlich willkommen auf der Seite von BUILT TO LAST!</p>
+      <p>
+        In der mehrteiligen Vortragsreihe BUILT TO LAST geben Ihnen unsere Expert:innen Einblicke in Ideen und Lösungen, die Ihre Software zukunftssicher gestalten. In lockerer Athmosphäre versuchen
+        wir der Frage auf den Grund zu gehen, wie Software so hergestellt werden kann, dass sie möglichst lange Bestand hat und vor allem, wie bestehende Software nachhaltig modernisiert werden kann.
+      </p>
+      <p>Die Vorträge sind kostenlos, für das leibliche Wohl ist gesorgt.</p>
+      <section>
+        <h2 class="mint">Ablauf</h2>
+        <div>
+          Die Abende sind jeweils wie folgt aufgebaut:
+          <ul>
+            <li>18:00 - CheckIn</li>
+            <li>18:30 - Erster Vortrag</li>
+            <li>19:15 - Pause mit Verpflegung</li>
+            <li>19:45 - Zweiter Vortrag</li>
+            <li>20:30 - Q&A und Networking</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="mint">Termine</h2>
+        Folgende Termine stehen an:<br /><br />
+        <div id="termine"></div>
+      </section>
+      <section>
+        <h2 class="mint">Vorträge</h2>
+        <div id="vortraege"></div>
+      </section>
+      <section>
+        <h2 class="mint">Speaker</h2>
+        <div id="referenten"></div>
+      </section>
+
+      <div></div>
+      <footer>Powered by <a href="https://www.iteratec.com">iteratec</a></footer>
+    </main>
+
+    <template id="event">
+      <article id="event-id">
+        <header>
+          <span class="btnRegister"></span>
+          <h1 class="date iteragenta">---</h1>
+          <span class="location"></span>
+        </header>
+        <div class="content"></div>
+      </article>
+    </template>
+    <template id="talk"> <strong class="title"></strong> - <a class="moreLink" href="#">mehr</a><br />Referent:in: <span class="referenten"></span> </template>
+    <template id="talkdetail">
+      <article>
+        <strong class="title"></strong>
+        <p class="abstract"></p>
+        Termine: <span class="termine"></span> <br />Referent:in: <span class="referenten"></span>
+      </article>
+    </template>
+    <template id="speaker">
+      <article>
+        <strong class="name" id="--"></strong>
+        <p class="bio"></p>
+        <footer>
+          Vortrag:
+          <div class="vortraege"></div>
+        </footer>
+      </article>
+    </template>
+    <script src="landing/scripts/main.js"></script>
+  </body>
 </html>
