@@ -49,11 +49,16 @@ function createLink(href, text, abs = false) {
 
 function writeEvents(data) {
   let isOld = false;
-  data.events.forEach(event => {
+  data.events.forEach((event, idx) => {
     const eventNode = eventTemplate.content.cloneNode(true);
     eventNode.querySelector("article").id = event.date;
     if ((event.date < new Date().toISOString())) {
       if (!isOld) {
+        if (idx === 0) {
+          termine.appendChild(
+            document.createTextNode(
+              " -- Leider sind momentan keine Termine geplant --"));
+        }
         termine.appendChild(document.createElement("hr"));
         termine.appendChild(document.createTextNode("Vergangene Termine:"));
       }
